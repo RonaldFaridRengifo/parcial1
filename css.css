@@ -116,4 +116,34 @@ section {
     font-size: 30px;
 }
 
+.info_depa {
+    display: flex;
+    width: 90%;
+    height: 350px;
+    gap: 80px;
 
+}
+
+.imagen_depa {
+    flex: 1;
+
+}
+
+.imagen_depa img {
+    width: 500px;
+    height: 300px;
+    margin: 30px 40px;
+}
+
+.text_depa {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_depa p {
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
